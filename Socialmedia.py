@@ -267,7 +267,7 @@ def main():
         n_drafts = st.number_input("Number of drafts to generate", min_value=1, max_value=5, value=1)
         target_audience = st.text_input("Target Audience", value="AI/ML engineers and researchers, Data Scientists")
         st.subheader("Agent Diagram")
-        st.image("/Users/mrp1mple/NLP udemy/Langchain/socialmedi_agenticAI.png", caption="Different Agents for Social Media Post Generation", use_container_width=True)
+        st.image("socialmedi_agenticAI.png", caption="Different Agents for Social Media Post Generation", use_container_width=True)
 
 
     # Main content
